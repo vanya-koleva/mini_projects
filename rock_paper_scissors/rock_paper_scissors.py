@@ -1,7 +1,11 @@
-import random, unicodedata
+import random
+import unicodedata
+
 from time import sleep
+
 from colorama import init, Fore, Back, Style
 init(autoreset=True)
+
 
 heart = unicodedata.lookup('HEAVY BLACK HEART')
 rock = Fore.LIGHTBLACK_EX + "Rock" + '\U0000270A'
