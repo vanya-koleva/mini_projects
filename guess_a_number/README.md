@@ -25,7 +25,7 @@ The game starts by selecting a random name from a predefined list of names, whic
 * The game ends when the time limit is reached. The player is informed of their final score and the level they reached.
 
 ## Example Output
-![guess_the_number_example_output](https://github.com/vanya-koleva/mini_projects/assets/148770184/fe915cd2-bf54-4c2e-be29-4d1b1f244ca1)
+![guess_the_number_example_output](https://github.com/vanya-koleva/mini_projects/blob/main/guess_a_number/guess_the_number_example_output.png?raw=true)
 
 ## Live Demo
-https://replit.com/@Vanya-Koleva/guessthenumber
+[Replit](https://replit.com/@Vanya-Koleva/guessthenumber)
