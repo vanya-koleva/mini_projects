@@ -36,7 +36,7 @@ The game begins by importing the following modules:
 * The game can be exited by entering an invalid input for the player's move or by choosing not to play again.
 
 ## Example Output
-![rock_paper_scissors_example_output](https://github.com/vanya-koleva/learning_projects/assets/148770184/90c42167-3d8f-4c1c-97ac-5149fd090c21)
+![rock_paper_scissors_example_output](https://github.com/vanya-koleva/mini_projects/blob/main/rock_paper_scissors/rock_paper_scissors_example_output.png?raw=true))
 
 ## Live Demo
-https://replit.com/@Vanya-Koleva/rockpaperscissors
+[Replit](https://replit.com/@Vanya-Koleva/rockpaperscissors)
