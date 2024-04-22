@@ -19,3 +19,7 @@ An implementation of the Vigenère cipher, a method of encrypting alphabetic tex
 * [Password Generator](https://github.com/vanya-koleva/mini_projects/blob/main/password_generator.py)
 
 This Python script generates a secure password based on user-defined or default requirements. The script uses libraries such as **re**, **secrets**, and **string** for regular expression matching operations, generating cryptographically strong random characters, and string constants, respectively.
+
+* [Basic Calculator](https://github.com/vanya-koleva/mini_projects/blob/main/basic_calculator/basic_calculator.py)
+
+A simple calculator implemented with **tkinter**.
