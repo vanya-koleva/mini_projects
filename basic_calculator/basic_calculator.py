@@ -3,6 +3,7 @@ from tkinter import messagebox
 
 root = tk.Tk()
 root.title("Basic Calculator")
+root.config(bg="light pink")
 
 e = tk.Entry(root, width=45, borderwidth=5)
 e.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
@@ -76,22 +77,24 @@ def button_divide():
 
 # Define buttons
 padx, pady = 30, 10
-button_1 = tk.Button(root, text="1", padx=padx, pady=pady, command=lambda: button_click(1))
-button_2 = tk.Button(root, text="2", padx=padx, pady=pady, command=lambda: button_click(2))
-button_3 = tk.Button(root, text="3", padx=padx, pady=pady, command=lambda: button_click(3))
-button_4 = tk.Button(root, text="4", padx=padx, pady=pady, command=lambda: button_click(4))
-button_5 = tk.Button(root, text="5", padx=padx, pady=pady, command=lambda: button_click(5))
-button_6 = tk.Button(root, text="6", padx=padx, pady=pady, command=lambda: button_click(6))
-button_7 = tk.Button(root, text="7", padx=padx, pady=pady, command=lambda: button_click(7))
-button_8 = tk.Button(root, text="8", padx=padx, pady=pady, command=lambda: button_click(8))
-button_9 = tk.Button(root, text="9", padx=padx, pady=pady, command=lambda: button_click(9))
-button_0 = tk.Button(root, text="0", padx=padx, pady=pady, command=lambda: button_click(0))
-button_add = tk.Button(root, text="+", padx=29, pady=pady, command=button_add)
-button_subtract = tk.Button(root, text="-", padx=padx, pady=pady, command=button_subtract)
-button_multiply = tk.Button(root, text="*", padx=padx, pady=pady, command=button_multiply)
-button_divide = tk.Button(root, text="/", padx=padx, pady=pady, command=button_divide)
-button_equal = tk.Button(root, text="=", padx=67, pady=pady, command=button_equal)
-button_clear = tk.Button(root, text="Clear", padx=81, pady=pady, command=button_clear)
+fg, bg ="Black", "light pink"
+font=("Ariel", 14)
+button_1 = tk.Button(root, text="1", padx=padx, pady=pady, fg=fg, bg=bg, font=font, command=lambda: button_click(1))
+button_2 = tk.Button(root, text="2", padx=padx, pady=pady, fg=fg, bg=bg, font=font, command=lambda: button_click(2))
+button_3 = tk.Button(root, text="3", padx=padx, pady=pady, fg=fg, bg=bg, font=font, command=lambda: button_click(3))
+button_4 = tk.Button(root, text="4", padx=padx, pady=pady, fg=fg, bg=bg, font=font, command=lambda: button_click(4))
+button_5 = tk.Button(root, text="5", padx=padx, pady=pady, fg=fg, bg=bg, font=font, command=lambda: button_click(5))
+button_6 = tk.Button(root, text="6", padx=padx, pady=pady, fg=fg, bg=bg, font=font, command=lambda: button_click(6))
+button_7 = tk.Button(root, text="7", padx=padx, pady=pady, fg=fg, bg=bg, font=font, command=lambda: button_click(7))
+button_8 = tk.Button(root, text="8", padx=padx, pady=pady, fg=fg, bg=bg, font=font, command=lambda: button_click(8))
+button_9 = tk.Button(root, text="9", padx=padx, pady=pady, fg=fg, bg=bg, font=font, command=lambda: button_click(9))
+button_0 = tk.Button(root, text="0", padx=padx, pady=pady, fg=fg, bg=bg, font=font, command=lambda: button_click(0))
+button_add = tk.Button(root, text="+", padx=27, pady=pady, fg=fg, bg=bg, font=font, command=button_add)
+button_subtract = tk.Button(root, text="-", padx=padx, pady=pady, fg=fg, bg=bg, font=font, command=button_subtract)
+button_multiply = tk.Button(root, text="*", padx=padx, pady=pady, fg=fg, bg=bg, font=font, command=button_multiply)
+button_divide = tk.Button(root, text="/", padx=padx, pady=pady, fg=fg, bg=bg, font=font, command=button_divide)
+button_equal = tk.Button(root, text="=", padx=73, pady=pady, fg=fg, bg=bg, font=font, command=button_equal)
+button_clear = tk.Button(root, text="Clear", padx=81, pady=pady, fg=fg, bg=bg, font=font, command=button_clear)
 
 # Put the buttons on the screen
 button_clear.grid(row=1, column=0, columnspan=4, sticky="ew")
