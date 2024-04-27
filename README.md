@@ -23,3 +23,7 @@ This Python script generates a secure password based on user-defined or default 
 * [Basic Calculator](https://github.com/vanya-koleva/mini_projects/blob/main/basic_calculator/basic_calculator.py)
 
 A simple calculator implemented with **tkinter**.
+
+* [Stack Overflow Questions](https://github.com/vanya-koleva/mini_projects/blob/main/get_stack_overflow_questions.py)
+
+The script consumes the **Stack Exchange API**, using the **requests** module. It retrieves recent questions, optionally filtered by a tag and/or unanswered questions.
